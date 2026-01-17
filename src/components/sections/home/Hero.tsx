@@ -9,12 +9,9 @@ import Link from 'next/link'
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-50 via-white to-burgundy-50">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 right-0 w-1/2 h-full">
-          <AnimatedLogo className="w-full h-full" />
-        </div>
-      </div>
+      {/* Subtle background gradient accents */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-burgundy-100 rounded-full opacity-30 blur-3xl -translate-y-1/2 translate-x-1/2" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-navy-100 rounded-full opacity-20 blur-3xl translate-y-1/2 -translate-x-1/2" />
 
       <Container size="xl" className="relative z-10 py-32">
         <div className="grid lg:grid-cols-2 gap-12 items-center">

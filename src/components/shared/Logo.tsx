@@ -21,7 +21,7 @@ export function Logo({ className, size = 'md', variant = 'default' }: LogoProps)
   return (
     <div className={cn('flex items-center', className)}>
       <Image
-        src="/logo.svg"
+        src="/logo.png"
         alt="Qtron Investments"
         width={dimensions.width}
         height={dimensions.height}
